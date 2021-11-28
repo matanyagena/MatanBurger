@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <title>MatanBurger</title>
+    <link rel="stylesheet" href="style4.css">
+    <!-- <a href="https://heroku.com/deploy">
+        <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+      </a> -->
+    <link rel="icon"href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcqlSMqTdY4v7f6JCC1acIpyjcaEVf_2jtkA&usqp=CAU">
+    <meta name="viewport" content="width=500,initial-scale=1">
+
+</head>
+
+<body>
+    <div id="container">
+
+        <header class="header">
+            <div id="logo">
+                <link rel="stylesheet"
+                href="https://fonts.googleapis.com/css?family=Tangerine">
+                <img id="logoimg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuLTVLBT-1m445vPZIC07yodCbC1wulYDodg&usqp=CAU">
+            </div>
+
+            <div id="h1title">
+                <h1 class='kenburns-right'>MatanBURGERS </h1>
+            </div>
+            
+        </header>
+        
+
+        
+        <main class="main">
+            <div id="giphyDiv">
+                <div id="giphy">
+                </div>
+            </div>
+
+            <div id="divButtons">
+
+                <div id="divP">
+                    <p id="p"></p>
+                </div>
+
+                <div id="buttons">
+                    <button onclick='removeDiv(0)' class="button-2"
+                        id="tomatoMinus" disabled=true>-</button></button><input placeholder="🍅 Tomato" disabled></input><button onclick='addNewDiv(0)'
+                        class="button-3" id="tomatoPlus">+</button>
+                    <br />
+                    <button onclick='removeDiv(1)' class="button-2"
+                        id="saladMinus" disabled=true>-</button><input placeholder="☘ Salad" disabled></input><button onclick='addNewDiv(1)' class="button-3" id="saladPlus">+</button>
+                    <br />
+                    <button onclick='removeDiv(2)' class="button-2"
+                        id="cheeseMinus" disabled=true>-</button><input placeholder="🧀Cheese" disabled></input><button onclick='addNewDiv(2)' class="button-3"
+                        id="cheesePlus">+</button>
+                    <br />
+                    <button onclick='removeDiv(3)' class="button-3" id="meatMinus" >-</button><input placeholder="🍔Meat" disabled></input><button onclick='addNewDiv(3)' class="button-3" id="meatPlus">+</button>
+                </div>
+
+
+            </div>
+
+            <div class="kenburns-bottom-right">
+                <p id="price">Current Price:4.99$</p>
+
+                <div id="top">
+                    <br />
+                </div>
+
+                <div id='tomato'></div>
+
+                <div id='cheese'></div>
+
+                <div id='meat'></div>
+                <div class="meat"></div>
+                <div id='salad'></div>
+
+                <div id="bottom">
+
+                </div>
+
+            </div>
+            <div id="divgiphy2">
+                <img id="giphy2"
+                    src="https://media2.giphy.com/media/tk2MjKGg0h04g/200w.webp?cid=ecf05e47933pgathd15mh0kvv1y552yexmlpj492ou7kg3m3&rid=200w.webp&ct=g"
+                    alt="">
+            </div>
+        </main>
+
+        <footer class="footer">
+            <a>MatanBURGERS &#8482;</a>
+        </footer>
+
+    </div>
+    <script src=site4.js></script>
+</body>
+
+</html>
+
+
+

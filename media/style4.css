@@ -1,0 +1,370 @@
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    background-color:rgb(223, 196, 160); 
+}
+input{
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    background-color: #FFBC97;
+    
+}
+.header{
+    width: 100%;
+    height: 20%;
+    background-color: red;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; 
+
+    
+}
+#logo{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin: 30px;
+}
+#logoimg{
+    width: 80px;
+    height: 80px;
+}
+h1{
+    color:rgb(240, 236, 15) ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    color:rgb(240, 236, 15) ;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Tangerine', serif;
+    font-size: 30px;
+
+}
+#h1title{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.main{
+    width: 100%;
+    height: 70%; 
+    background-color:rgba(204, 23, 23, 0.20);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; 
+
+}
+
+/* burger */
+.kenburns-bottom-right {
+	-webkit-animation: kenburns-bottom-right 5s ease-out 3s reverse both;
+	animation: kenburns-bottom-right 5s ease-out 3s reverse both;
+}
+/* burger */
+.kenburns-bottom-right{
+    width: 25%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#divgiphy2{
+    width:25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+#giphy2{
+    border-radius:1px;
+    background-size:cover;  
+    border: 10px groove rgb(104, 97, 97);
+}
+#giphyDiv{
+    width: 20%;
+    height: 100%; 
+
+
+}
+#giphy{
+    margin: 10px;
+    width: 80%;
+    height: 90%; 
+    background-image:url('https://media1.giphy.com/media/138btjfXAn1xyo/giphy.webp?cid=ecf05e47iklhhnt8cchkz4tzaswet1qh9veccj5o199y2xgr&rid=giphy.webp&ct=g');
+
+    background-size:cover;
+    border-radius:1px;
+    border: 10px groove rgb(104, 97, 97);
+
+}
+#divButtons{
+    width: 35%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+}
+#divP{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+}
+#buttons{
+    width: 50%;
+    height: 70%;
+
+
+}
+.footer{
+    width: 100%;
+    height: 10%;
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; 
+
+}
+
+#top{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7vlsrnfSMEfMLLpBhk9FVrazvzGkAMkosKA&usqp=CAU') ;
+    border-radius:30px;
+    background-size:cover;
+    width: 200px;
+    height: 50px;
+}
+#bottom{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFTurrSdJzqfTrVs8dJn2rEfVVpZ11HVj4MQ&usqp=CAU') ;
+    border-radius:30px;
+    background-size:cover;
+    width: 200px;
+    height: 30px;
+    
+}
+
+.tomato{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSidJWNPyvU8oH3MmUNjZzvmc_6joqYBGqjUQ&usqp=CAU');
+    background-size:cover;
+    border-radius:5px;
+    margin: 2px;
+    width: 200px;
+    height: 12px;
+}
+.salad{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOHwpudRw2VRnQdmtPQOAqjexIA8Q0vxX7WQ&usqp=CAU');
+    background-size:cover;
+    border-radius:10px;
+    margin: 2px;
+    width: 200px;
+    height: 12px;
+}
+.meat{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpjZQYXYiA3qbGiSNOxcY7nb-CnBHdaFnsow&usqp=CAU');
+    background-size:cover;
+    border-radius:10px;
+    margin: 2px;
+    width: 210px;
+    height: 20px;   
+}
+.cheese{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3SI6pGB2PIHHoIf5xKzU_b_lWGoQWXRTIOg&usqp=CAU');
+    background-size:cover;
+    border-radius:10px;
+    margin: 2px;
+    width: 200px;
+    height: 12px;
+}
+
+
+/* CSS */
+.button-3 {
+    appearance: none;
+    background-color: rgba(0, 255, 13, 0.4);
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.button-2{
+    appearance: none;
+    background-color: rgb(22, 80, 25);
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.button-3:hover {
+    background-color: #2c974b;
+}
+
+.button-3:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+}
+
+.button-3:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.button-3:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+button{
+    margin: 2px;
+}
+
+
+.kenburns-right {
+	-webkit-animation: kenburns-right 5s ease-out both;
+	        animation: kenburns-right 5s ease-out both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2021-11-23 2:9:56
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation kenburns-right
+ * ----------------------------------------
+ */
+ @-webkit-keyframes kenburns-right {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+              transform: scale(1) translate(0, 0);
+      -webkit-transform-origin: 84% 50%;
+              transform-origin: 84% 50%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateX(20px);
+              transform: scale(1.25) translateX(20px);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+    }
+  }
+  @keyframes kenburns-right {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+              transform: scale(1) translate(0, 0);
+      -webkit-transform-origin: 84% 50%;
+              transform-origin: 84% 50%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateX(20px);
+              transform: scale(1.25) translateX(20px);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+    }
+  }
+
+  /* ----------------------------------------------
+ * Generated by Animista on 2021-11-23 2:26:0
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation kenburns-bottom-right
+ * ----------------------------------------
+ */
+@-webkit-keyframes kenburns-bottom-right {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+              transform: scale(1) translate(0, 0);
+      -webkit-transform-origin: 84% 84%;
+              transform-origin: 84% 84%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translate(20px, 15px);
+              transform: scale(1.25) translate(20px, 15px);
+      -webkit-transform-origin: right bottom;
+              transform-origin: right bottom;
+    }
+  }
+  @keyframes kenburns-bottom-right {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+              transform: scale(1) translate(0, 0);
+      -webkit-transform-origin: 84% 84%;
+              transform-origin: 84% 84%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translate(20px, 15px);
+              transform: scale(1.25) translate(20px, 15px);
+      -webkit-transform-origin: right bottom;
+              transform-origin: right bottom;
+    }
+  }
+  
